@@ -155,8 +155,13 @@
                 android:layout="@layout/call_log_list_item_actions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="bottom" />
-
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/call_log_icon_margin"
+                android:src="@drawable/ic_card_phone"
+                android:tint="@color/recent_call_log_item_phone_icon_tint"
+                android:importantForAccessibility="no"
+                android:visibility="gone"
+                />
         </LinearLayout>
 
     </android.support.v7.widget.CardView>

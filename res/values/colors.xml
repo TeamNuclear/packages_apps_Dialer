@@ -42,6 +42,9 @@
     <color name="visual_voicemail_promo_card_background">#673ab7</color>
     <color name="visual_voicemail_promo_card_divider">#7d57c1</color>
     <color name="promo_card_text">#ffffff</color>
+    <!-- Tint of the recent card phone icon -->
+    <color name="recent_call_log_item_phone_icon_tint">#30000000</color>
+    <color name="call_log_extras_text_color">#0277bd</color>
 
     <color name="voicemail_icon_tint">@color/call_log_icon_tint</color>
     <color name="voicemail_icon_disabled_tint">#80000000</color>
